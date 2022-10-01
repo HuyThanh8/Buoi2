@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+    margin: 0px 250px;
+}
+main {
+    margin: 0px 250px;
+}
+.content1 {
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    max-width: 100%;
+}
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto ;
+    padding: 20px;
+}
