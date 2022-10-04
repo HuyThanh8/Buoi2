@@ -1,0 +1,33 @@
+/* .line-1 {
+    font-size: 40px;
+    color: red;
+}
+.box,
+.line-2 {
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+}
+.sub-box {
+    width: 50%;
+    height: 80%;
+    background-color: bisque;
+}
+.box {
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 50px; */
+    /* margin: 50px 40px;
+    padding: 40px 30px;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 10px;
+} */
+.container {
+    padding: 50px 60px;
+    position: relative;
+}
