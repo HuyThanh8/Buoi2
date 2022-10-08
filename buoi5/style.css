@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #00000066, #00000066), 
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/4f5e9e23-1c27-48a9-9e1a-2654cef2a140/VN-vi-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg);     
+}
+.main{
+    min-height: 100%;   
+}
+.login-box{
+    width: 450px;
+    padding: 60px;
+    margin: 160px auto 0;
+    background: #000000ba;
+    min-height: 600px;
+    border-radius: 12px;
+    color: white;
+}
+.login-box__title{    
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;    
+}
+.form-login__input{
+    background: rgb(51,51,51);
+    padding: 20px 16px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+}
+.form-login__input ~ label{
+    transition: all 0.15 linear;
+    color: rgba(255, 255, 255, 0.493);
+}
+.form-login__input:focus ~ label{
+    transform: translateY(-14px);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.493);
+}
+.form-login__input:not(:placeholder-shown) ~ label{
+    transform: translateY(-14px);
+    font-size: 12px;
+}
+.form-login__input::placeholder{
+    opacity: 0;
+    visibility: hidden;
+}
+.form-login__btn{
+    padding: 20px 16px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+.form-login__btn:active{
+    scale: 0.96;
+}
+.form-login__remember{
+    color: rgba(255, 255, 255, 0.705);
+    display: flex;
+    justify-content: space-between;
+}
+.form-login__remember-checkbook{
+    column-gap: 6px;
+    display: flex;
+    align-items: center;
+}
+.form-login__item{
+    position: relative;
+}
+.form-login__item label{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+.form-login__other{
+    display: flex;
+    flex-direction: column;
+}
+.form-login__signup{
+    font-size: 18px;
+    margin-top: 16px;
+    color: #737373;
+    font-weight: 400px;
+}
+.form-login__signup a{
+    color: white;
+    text-decoration: none;
+}
+.form-login__recap{
+    color: #8c8c8c;
+    font-size: 14px;
+    margin: 12px 0px;
+    position: relative;
+    text-align: left;
+}
+.form-login__recap-btn{
+    color: #0071eb;
+    background-color: transparent;
+    border: none;
+}
+.footer{
+    background: rgba(0,0,0, 0.75);
+    color: #757575;
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative;
+    min-width: 190px;
+}
+.sub-footer{
+    padding: 30px 0;
+    margin: 0 auto;
+    color: #737373;
+    width: 90%;
+}
+.footer-top{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer-top a{
+    color: #737373;
+    text-decoration: none;
+}
+.footer-link{
+    font-size: 14px;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+.footer-link-item{
+    display: inline-block;
+    margin-bottom: 16px;
+    padding-right: 12px;
+    min-width: 100px;
+    width: 24%;
+}
+.footer-langauge{
+    margin-top: 20px;
+}
+.footer-label{
+    display: inline-block;
+    position: relative;
+}    
+    
+
